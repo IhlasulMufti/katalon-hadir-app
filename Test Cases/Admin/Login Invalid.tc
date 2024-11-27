@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cd7d383a-ed86-4415-876a-07d62dfde6b6</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>539dc540-7f1a-44cb-8093-392e64eb743c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Invalid Login Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>539dc540-7f1a-44cb-8093-392e64eb743c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>2373d6da-c13e-4463-b283-d79adcc95f1a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>539dc540-7f1a-44cb-8093-392e64eb743c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>e2078ecd-64dc-4acc-9822-edf3d53583cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>539dc540-7f1a-44cb-8093-392e64eb743c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>error_message</value>
+      <variableId>a2e366cb-eb67-4fc7-b5de-ca662a205224</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2373d6da-c13e-4463-b283-d79adcc95f1a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e2078ecd-64dc-4acc-9822-edf3d53583cb</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a2e366cb-eb67-4fc7-b5de-ca662a205224</id>
+      <masked>false</masked>
+      <name>error_message</name>
+   </variable>
+</TestCaseEntity>
