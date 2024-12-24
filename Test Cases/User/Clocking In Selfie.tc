@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login Valid</name>
-   <tag>admin</tag>
+   <name>Clocking In Selfie</name>
+   <tag>absent</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0d163394-f0c0-4345-a62f-0688b8362dae</testCaseGuid>
+   <testCaseGuid>520b6e2f-c88c-42c2-ae7a-014abeb65a2c</testCaseGuid>
 </TestCaseEntity>

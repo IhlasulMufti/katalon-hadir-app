@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Login Invalid</name>
-   <tag></tag>
+   <tag>admin</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>cd7d383a-ed86-4415-876a-07d62dfde6b6</testCaseGuid>

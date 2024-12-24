@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
+WebUI.navigateToUrl(GlobalVariable.admin_Url)
 
 WebUI.setText(findTestObject('Object Repository/Admin/Login Page/input_Email_email'), 'admin@hadir.com')
 

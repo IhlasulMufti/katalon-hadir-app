@@ -2,8 +2,8 @@
 <TestCaseEntity>
    <description></description>
    <name>Login Valid</name>
-   <tag>admin</tag>
+   <tag>user</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0d163394-f0c0-4345-a62f-0688b8362dae</testCaseGuid>
+   <testCaseGuid>b2a53b8f-aba3-4e19-bf00-719de6d1ca46</testCaseGuid>
 </TestCaseEntity>

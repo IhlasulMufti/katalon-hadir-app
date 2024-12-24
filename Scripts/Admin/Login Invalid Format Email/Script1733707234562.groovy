@@ -16,19 +16,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import customKeywords.CustomUtils as Utils
 
 WebUI.navigateToUrl(GlobalVariable.admin_Url)
 
-WebUI.setText(findTestObject('Object Repository/Admin/Login Page/input_Email_email'), email)
+WebUI.setText(findTestObject('Admin/Login Page/input_Email_email'), email)
 
-WebUI.setText(findTestObject('Object Repository/Admin/Login Page/input_Password_password'), password)
+WebUI.setText(findTestObject('Admin/Login Page/input_Password_password'), password)
 
-WebUI.click(findTestObject('Object Repository/Admin/Login Page/button_Masuk'))
+WebUI.click(findTestObject('Admin/Login Page/button_Masuk'))
 
-def actualErrorMessage = WebUI.getText(findTestObject('Admin/Login Page/p_Error_Login_Message'))
+WebUI.verifyElementAttributeValue(findTestObject('Admin/Login Page/input_Email_email'), 'type', 'email', 0)
 
-Utils.verifyTextContains(actualErrorMessage, error_message, true)
+WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Admin/Login Page/p_Login'), 'Login')
+currentUrl = WebUI.getUrl()
+
+WebUI.verifyMatch(currentUrl, url, false)
 

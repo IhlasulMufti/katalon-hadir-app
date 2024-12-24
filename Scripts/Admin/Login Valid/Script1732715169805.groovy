@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
+WebUI.navigateToUrl(GlobalVariable.admin_Url)
 
 WebUI.setText(findTestObject('Admin/Login Page/input_Email_email'), 'admin@hadir.com')
 

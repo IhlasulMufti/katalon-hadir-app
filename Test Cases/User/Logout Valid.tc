@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login Valid</name>
-   <tag>admin</tag>
+   <name>Logout Valid</name>
+   <tag>user</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0d163394-f0c0-4345-a62f-0688b8362dae</testCaseGuid>
+   <testCaseGuid>50cecb97-aacb-4b10-b840-14502c3422b3</testCaseGuid>
 </TestCaseEntity>

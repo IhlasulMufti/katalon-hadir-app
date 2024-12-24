@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Unable to clock in when already clocked in on the same day</description>
+   <name>Clocking In Failed</name>
+   <tag>absent</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>830302ec-80de-46f2-a025-401e0d36f67e</testCaseGuid>
+</TestCaseEntity>
