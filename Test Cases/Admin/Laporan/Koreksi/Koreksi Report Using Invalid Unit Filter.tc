@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data koreksi dengan tidak memilih departemen menggunakan filter By Unit</description>
+   <name>Koreksi Report Using Invalid Unit Filter</name>
+   <tag>laporan koreksi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d0d93161-8352-4f53-8226-129b711a3de0</testCaseGuid>
+</TestCaseEntity>

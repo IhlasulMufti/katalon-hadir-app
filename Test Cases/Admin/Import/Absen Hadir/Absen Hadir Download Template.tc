@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Download Template Absen Hadir Scenario</description>
+   <name>Absen Hadir Download Template</name>
+   <tag>import absen hadir</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0024027d-521a-4cb2-a4dd-4cc529082a01</testCaseGuid>
+</TestCaseEntity>

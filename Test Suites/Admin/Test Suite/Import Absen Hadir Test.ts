@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
-   <name>Absent Test</name>
+   <description>Absen Hadir</description>
+   <name>Import Absen Hadir Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,33 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>9799b9ed-27cf-42da-a728-fc3bf7fa0c61</testSuiteGuid>
+   <testSuiteGuid>36d78948-4391-4fd6-af43-245751d51680</testSuiteGuid>
    <testCaseLink>
-      <guid>f57eea6e-f3e4-43dc-94d7-79aa9eecbfcb</guid>
+      <guid>28658aeb-0582-4867-a75a-a43bead233d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Clocking In/Clocking In Selfie</testCaseId>
+      <testCaseId>Test Cases/Admin/Import/Absen Hadir/Absen Hadir Download Template</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c4c44c1c-0e8e-4108-b9cc-59f8ebd1976f</guid>
+      <guid>dab7fb85-7e1a-479c-a7af-b7e7f3e2024a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Clocking In/Clocking In Non-Selfie</testCaseId>
+      <testCaseId>Test Cases/Admin/Import/Absen Hadir/Absen Hadir Import File Invalid</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e6efbbc3-0e3e-4c15-a311-271ce8a3db28</guid>
+      <guid>5681f1d7-83c1-4cc2-a758-7fbeabae801e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Clocking In/Clocking In Failed</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b799ed9c-ef3b-472b-9bab-5c94c92b94c0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Clocking In/Clocking Out Successful</testCaseId>
+      <testCaseId>Test Cases/Admin/Import/Absen Hadir/Absen Hadir Import File Valid</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

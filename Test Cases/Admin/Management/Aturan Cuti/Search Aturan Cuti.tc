@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Aturan Cuti</name>
+   <tag>management aturan cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e63c4ae-3a8d-46ef-b922-d42bca38b931</testCaseGuid>
+</TestCaseEntity>

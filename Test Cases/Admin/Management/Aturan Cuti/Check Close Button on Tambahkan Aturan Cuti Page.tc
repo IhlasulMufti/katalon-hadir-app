@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check Close Button on Tambahkan Aturan Cuti Page</name>
+   <tag>management aturan cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>423cfb44-6123-4ecd-8d07-133077592cb5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reject koreksi absen yang diajukan tanpa mengisi alasan</description>
+   <name>Koreksi Absent Reject if The Reason is Empty</name>
+   <tag>laporan koreksi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>554316b5-e2f3-45b0-8585-d231251a1687</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data izin off dengan input nama dan input tanggal yang sesuai</description>
+   <name>Izin Off Report with Valid Name and Date</name>
+   <tag>laporan izin off</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1294aa3b-8c15-46d9-a9be-b8f8105ee174</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data koreksi dengan input nama departemen menggunakan filter By Unit</description>
+   <name>Koreksi Report Using Valid Unit Filter</name>
+   <tag>laporan koreksi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e5bf307-6be0-4e25-bee3-dfb53892d3b2</testCaseGuid>
+</TestCaseEntity>

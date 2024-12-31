@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reject izin off yang diajukan tanpa mengisi alasan</description>
+   <name>Izin Off Reject if The Reason is Empty</name>
+   <tag>laporan izin off</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1e6d470a-5c1c-4233-817c-b77a3417c46e</testCaseGuid>
+</TestCaseEntity>

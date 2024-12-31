@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Aturan Cuti Desember</name>
+   <tag>management aturan cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>83a50055-7bb7-4c01-9aee-c966dac29604</testCaseGuid>
+</TestCaseEntity>

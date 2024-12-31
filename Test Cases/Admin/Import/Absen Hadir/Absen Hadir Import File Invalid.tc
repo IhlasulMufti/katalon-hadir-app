@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Invalid Import File Absen Hadir Scenario</description>
+   <name>Absen Hadir Import File Invalid</name>
+   <tag>import absen hadir</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dce1deec-fd29-4b07-84ef-533e70d38e92</testCaseGuid>
+</TestCaseEntity>

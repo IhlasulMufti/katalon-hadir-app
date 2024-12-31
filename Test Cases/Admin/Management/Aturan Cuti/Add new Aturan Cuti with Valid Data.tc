@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add new Aturan Cuti with Valid Data</name>
+   <tag>management aturan cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>67232b04-0188-4b3f-9a54-0af12c0a8615</testCaseGuid>
+</TestCaseEntity>

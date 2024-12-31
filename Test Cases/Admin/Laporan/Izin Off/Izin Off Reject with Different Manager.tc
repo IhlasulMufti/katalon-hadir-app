@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reject izin off yang diajukan dengan atasan berbeda</description>
+   <name>Izin Off Reject with Different Manager</name>
+   <tag>laporan izin off</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e876ac52-8918-49ac-ba46-60dd34971c0b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ubah tampilkan row per page menjadi 25</description>
+   <name>Koreksi Report Change Row Each Page Into 25</name>
+   <tag>laporan koreksi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a15dfc7d-b540-4b03-830f-cba15f260808</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data koreksi dengan input nama yang sesuai, tetapi tanggal tidak valid</description>
+   <name>Koreksi Report with Valid Name and Invalid Date</name>
+   <tag>laporan koreksi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>465183f9-0618-494b-bddb-621744c5a73e</testCaseGuid>
+</TestCaseEntity>

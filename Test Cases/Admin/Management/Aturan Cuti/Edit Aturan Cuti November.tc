@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Aturan Cuti November</name>
+   <tag>management aturan cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>698ca12a-6f10-4ea7-9234-f0d8d6ca6301</testCaseGuid>
+</TestCaseEntity>

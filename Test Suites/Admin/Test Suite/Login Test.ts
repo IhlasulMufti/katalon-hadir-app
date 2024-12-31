@@ -15,14 +15,14 @@
       <guid>b6025b38-e13c-4130-9d94-904cd69ab610</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Login Valid</testCaseId>
+      <testCaseId>Test Cases/Admin/Login/Login Valid</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e9804ecb-edb3-4943-8510-3f6ae38e41d2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Login Invalid</testCaseId>
+      <testCaseId>Test Cases/Admin/Login/Login Invalid</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1859dca6-1777-41c7-8725-e33b9fdd952d</id>
@@ -56,7 +56,7 @@
       <guid>aabf779d-1bb7-47c3-99a2-cbd815aeea69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Login Invalid Format Email</testCaseId>
+      <testCaseId>Test Cases/Admin/Login/Login Invalid Format Email</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>591f6fc7-2602-4b3e-9ef9-fbfa4601c1f6</id>
@@ -90,21 +90,21 @@
       <guid>3a76e95a-9ba8-425e-a5a7-4d0e25da3a82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Password Masking On</testCaseId>
+      <testCaseId>Test Cases/Admin/Login/Password Masking On</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2ae42e22-101b-4f43-b7d6-2d025439c270</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Password Masking Off</testCaseId>
+      <testCaseId>Test Cases/Admin/Login/Password Masking Off</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f7f53338-95e4-44ab-82e8-1c896b649917</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Logout Valid</testCaseId>
+      <testCaseId>Test Cases/Admin/Login/Logout Valid</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

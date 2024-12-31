@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Login Test</name>
+   <name>Aturan Cuti Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,47 +10,54 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>06439ee4-10d0-4d77-9ae7-0bf486ab29de</testSuiteGuid>
+   <testSuiteGuid>be58426f-eaad-47d4-80ea-016fe9fcb653</testSuiteGuid>
    <testCaseLink>
-      <guid>c4864272-8bdd-4f91-bbb7-8f76abcf89d6</guid>
+      <guid>78a708f5-2793-4bd2-b1e1-241e4147d9a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Login/Login Valid</testCaseId>
+      <testCaseId>Test Cases/Admin/Management/Aturan Cuti/Add new Aturan Cuti with Valid Data</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>905b4575-a0fe-4caf-9c6a-ebce1f5944a5</guid>
+      <guid>b4c0af7f-6997-42b2-9a72-e6158aca0a81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Login/Login Invalid</testCaseId>
+      <testCaseId>Test Cases/Admin/Management/Aturan Cuti/Check Close Button on Tambahkan Aturan Cuti Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>29bcf8bf-45e4-490e-9345-193be7ad38b2</guid>
+      <guid>1420553e-3858-472f-93d2-3297274648d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Login/Login Invalid Format Email</testCaseId>
+      <testCaseId>Test Cases/Admin/Management/Aturan Cuti/Check Reset Button</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3dac3bc7-7d9d-4c7c-ba5f-17593de5ed84</guid>
+      <guid>1edaeb92-de73-459e-a67e-0daef6b0f1a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Login/Password Masking On</testCaseId>
+      <testCaseId>Test Cases/Admin/Management/Aturan Cuti/Delete Aturan Cuti Desember</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f623b91d-7ca1-4f8e-8ca0-e3d54c3826b8</guid>
+      <guid>2cd9c84f-ac26-48fa-bcfc-501b1f78275d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Login/Password Masking Off</testCaseId>
+      <testCaseId>Test Cases/Admin/Management/Aturan Cuti/Edit Aturan Cuti November</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b0ead12d-66cf-41fb-a2e7-56859d42a67e</guid>
+      <guid>c3f01765-12a6-49b3-b925-7dbd21d50367</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Login/Logout Valid</testCaseId>
+      <testCaseId>Test Cases/Admin/Management/Aturan Cuti/Search Aturan Cuti</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>90e1fb24-dc77-40f2-9c52-ca52325f6d0f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin/Management/Aturan Cuti/View and Add Detail Aturan Cuti Desember</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

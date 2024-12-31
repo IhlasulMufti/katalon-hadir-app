@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reject koreksi absen yang diajukan</description>
+   <name>Koreksi Absen Successfull Reject</name>
+   <tag>laporan koreksi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c0c854c7-6e57-4536-82c9-16e86cbfdff7</testCaseGuid>
+</TestCaseEntity>

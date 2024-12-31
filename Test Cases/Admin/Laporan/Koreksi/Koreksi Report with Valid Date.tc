@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data koreksi dengan input tanggal yang sesuai</description>
+   <name>Koreksi Report with Valid Date</name>
+   <tag>laporan koreksi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af0ab7b5-faf8-4436-ae82-d60672217e26</testCaseGuid>
+</TestCaseEntity>

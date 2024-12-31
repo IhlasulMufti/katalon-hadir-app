@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View and Add Detail Aturan Cuti Desember</name>
+   <tag>management aturan cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>582a0c17-014d-44c3-ac53-477e1a66fb8b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data izin off dengan input nama departemen menggunakan filter By Unit</description>
+   <name>Izin Off Report Using Valid Unit Filter</name>
+   <tag>laporan izin off</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0cbd799f-9e14-4d19-9bf7-f4fa963c75b2</testCaseGuid>
+</TestCaseEntity>

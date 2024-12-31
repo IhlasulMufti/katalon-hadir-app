@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Approval izin off yang diajukan dengan atasan berbeda</description>
+   <name>Izin Off Aprroval with Different Manager</name>
+   <tag>laporan izin off</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f75e2745-a6c4-4438-8b51-f527b0722e52</testCaseGuid>
+</TestCaseEntity>
