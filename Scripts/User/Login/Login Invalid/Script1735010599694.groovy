@@ -24,15 +24,15 @@ WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.user_Url)
 
-WebUI.setText(findTestObject('User/Login Page/input_Email'), 'invalid@gmail.com')
+WebUI.setText(findTestObject('User/Login Page/input_Email'), email)
 
-WebUI.setText(findTestObject('User/Login Page/input_Password'), '2222222')
+WebUI.setText(findTestObject('User/Login Page/input_Password'), password)
 
 WebUI.click(findTestObject('User/Login Page/button_Masuk'))
 
 def actualErrorMessage = WebUI.getText(findTestObject('User/Login Page/p_Invalid_Login_Message'))
 
-Utils.verifyTextContains(actualErrorMessage, 'Akun tidak ditemukan', true)
+Utils.verifyTextContains(actualErrorMessage, invalid_message, true)
 
 currentUrl = WebUI.getUrl()
 

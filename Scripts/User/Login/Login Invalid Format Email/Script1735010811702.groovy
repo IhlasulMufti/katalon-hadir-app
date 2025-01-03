@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.navigateToUrl(GlobalVariable.user_Url)
+
+WebUI.setText(findTestObject('User/Login Page/input_Email'), email)
+
+WebUI.setText(findTestObject('User/Login Page/input_Password'), password)
+
+WebUI.click(findTestObject('User/Login Page/button_Masuk'))
+
+WebUI.delay(5)
+
+currentUrl = WebUI.getUrl()
+
+WebUI.verifyMatch(currentUrl, GlobalVariable.user_Url, false)
+
+WebUI.verifyElementAttributeValue(findTestObject('User/Login Page/input_Email'), 'type', 'email', 0)
+
