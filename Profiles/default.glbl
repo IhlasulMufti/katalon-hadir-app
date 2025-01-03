@@ -9,4 +9,9 @@
       <initValue>'https://magang.dikahadir.com/authentication/login'</initValue>
       <name>admin_Url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://magang.dikahadir.com/absen/login'</initValue>
+      <name>user_Url</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

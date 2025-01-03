@@ -25,11 +25,11 @@ WebUI.setText(findTestObject('Admin/Login Page/input_Password_password'), passwo
 
 WebUI.click(findTestObject('Admin/Login Page/button_Masuk'))
 
-WebUI.verifyElementAttributeValue(findTestObject('Admin/Login Page/input_Email_email'), 'type', 'email', 0)
-
 WebUI.delay(5)
 
 currentUrl = WebUI.getUrl()
 
 WebUI.verifyMatch(currentUrl, url, false)
+
+WebUI.verifyElementAttributeValue(findTestObject('Admin/Login Page/input_Email_email'), 'type', 'email', 0)
 

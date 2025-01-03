@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('User/Login Page/button__Side_Menu'))
+
+WebUI.click(findTestObject('User/Login Page/button_Logout'))
+
+WebUI.delay(3)
+
+currentUrl = WebUI.getUrl()
+
+WebUI.verifyMatch(currentUrl, GlobalVariable.user_Url, false)
+
+WebUI.closeBrowser()
+

@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.navigateToUrl(GlobalVariable.user_Url)
+
+WebUI.setText(findTestObject('User/Login Page/input_Email'), 'testuser1@gmail.com')
+
+WebUI.setText(findTestObject('User/Login Page/input_Password'), '12345678')
+
+WebUI.click(findTestObject('User/Login Page/button_Masuk'))
+
+WebUI.delay(3)
+
+WebUI.verifyMatch(WebUI.getText(findTestObject('User/Login Page/p_Hai_Username')), 'Hai, Test User 1', false)
+
+WebUI.verifyMatch(WebUI.getText(findTestObject('User/Login Page/p_Have a nice day')), 'Have a nice day !', false)
+
+currentUrl = WebUI.getUrl()
+
+WebUI.verifyMatch(currentUrl, 'https://magang.dikahadir.com/apps/absent', false)
+

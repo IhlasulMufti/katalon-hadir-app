@@ -16,6 +16,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import customKeywords.CustomUtils as Utils
 
-WebUI.navigateToUrl('')
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.navigateToUrl(GlobalVariable.user_Url)
+
+WebUI.setText(findTestObject('User/Login Page/input_Email'), 'invalid@gmail.com')
+
+WebUI.setText(findTestObject('User/Login Page/input_Password'), '2222222')
+
+WebUI.click(findTestObject('User/Login Page/button_Masuk'))
+
+def actualErrorMessage = WebUI.getText(findTestObject('User/Login Page/p_Invalid_Login_Message'))
+
+Utils.verifyTextContains(actualErrorMessage, 'Akun tidak ditemukan', true)
+
+currentUrl = WebUI.getUrl()
+
+WebUI.verifyMatch(currentUrl, GlobalVariable.user_Url, false)
 
