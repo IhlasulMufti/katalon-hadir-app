@@ -18,10 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import customKeywords.CustomUtils as Utils
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl(GlobalVariable.user_Url)
 
 WebUI.setText(findTestObject('User/Login Page/input_Email'), email)

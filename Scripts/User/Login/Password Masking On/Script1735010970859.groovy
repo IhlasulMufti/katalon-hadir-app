@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.user_Url)
 
 WebUI.setText(findTestObject('User/Login Page/input_Email'), 'testuser1@gmail.com')

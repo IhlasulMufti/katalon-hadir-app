@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[9]</value>
+         <value>//button[contains(@class, 'css-5lyhfd')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>694a5a5e-e6bc-461c-9b1f-9e9e3d86a166</webElementGuid>
+      <webElementGuid>38942ca0-cae1-4912-8029-036ceae46d11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-5lyhfd</value>
-      <webElementGuid>7724c3ca-be1d-4804-ad53-f9971a0ac18f</webElementGuid>
+      <webElementGuid>94a10fed-9cae-4bdd-88da-0a96ff759713</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>54006124-bd38-4f38-96de-0e5e30d3185c</webElementGuid>
+      <webElementGuid>b4a11101-f3b7-4b5e-9a3a-b6c4be661e7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a9003480-87d8-4468-9dee-c3d841dacfa2</webElementGuid>
+      <webElementGuid>6d88530d-9795-49ab-a2e5-9e4f38d800e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>c57fcbf5-45a7-4d52-ae42-5700ddd334a1</webElementGuid>
+      <webElementGuid>528a4ffb-48f7-486e-90c1-2a8ba5a7d28d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;MuiDrawer-root MuiDrawer-modal MuiModal-root css-ymf5c6&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation16 MuiDrawer-paper MuiDrawer-paperAnchorRight css-1f3t5fw&quot;]/div[@class=&quot;MuiBox-root css-1oook0i&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-5lyhfd&quot;]</value>
-      <webElementGuid>8e2cac60-77f3-46cd-9ae5-1fcf1df17aec</webElementGuid>
+      <webElementGuid>45aa1ca5-4d82-4890-8817-10ed29ef4faa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>623e1806-d27e-45c3-ac48-878963515df4</webElementGuid>
+      <webElementGuid>0f9b3daa-cfc0-4a63-ba90-f35d50de8e5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::button[1]</value>
-      <webElementGuid>52b539a1-8487-464f-a2bb-48778a7c90e8</webElementGuid>
+      <webElementGuid>328ffc62-8226-4068-a85a-1f2fc46fccb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::button[2]</value>
-      <webElementGuid>506c6f3a-e300-400a-abe8-668a45f42125</webElementGuid>
+      <webElementGuid>1bdfa8fa-8ede-43e0-9e85-874a0bfb236f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
-      <webElementGuid>6e934948-7d8d-4cb0-b852-e6eb4623deff</webElementGuid>
+      <webElementGuid>b96a4ca7-18c6-40a2-b054-b493638cac9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/button</value>
-      <webElementGuid>6ff0c108-d009-46ab-b8e2-c1541302a036</webElementGuid>
+      <webElementGuid>58955bc7-a7ca-4445-822b-18fbc4b6048d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>565c5e36-cb2c-4fae-8754-c63146e60cd9</webElementGuid>
+      <webElementGuid>1ffdc08d-552d-4b5f-927d-5ec2eaf13246</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
