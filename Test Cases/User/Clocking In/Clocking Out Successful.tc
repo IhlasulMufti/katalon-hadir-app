@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>11b7445a-f4c3-42ba-87d5-012da4009743</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe5a192a-d0d4-4a2e-8ff6-da1ab1c6e87a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0be6a52-2c05-448b-935b-8a68b0557b07</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c068fdc4-a787-48d3-bbd2-22ed7952082e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fe5a192a-d0d4-4a2e-8ff6-da1ab1c6e87a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0be6a52-2c05-448b-935b-8a68b0557b07</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c068fdc4-a787-48d3-bbd2-22ed7952082e</id>
+      <masked>false</masked>
+      <name>note</name>
+   </variable>
 </TestCaseEntity>

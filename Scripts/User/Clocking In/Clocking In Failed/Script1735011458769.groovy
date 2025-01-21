@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.navigateToUrl(GlobalVariable.user_Url)
+
+WebUI.setText(findTestObject('User/Login Page/input_Email'), 'noselfieuser2@gmail.com')
+
+WebUI.setText(findTestObject('User/Login Page/input_Password'), '12345678')
+
+WebUI.click(findTestObject('User/Login Page/button_Masuk'))
+
+WebUI.verifyElementNotPresent(findTestObject('User/Absent/button_Clocking_In'), 5)
+
